@@ -1,3 +1,7 @@
+// Dada una palabra, buscarla en una frase y devolver cuántas veces aparece.
+// Tanto la frase como la palabra deben ser parámetros de una función.
+
+
 function contarPalabraEnFrase(frase, palabra) {
     const palabras = frase.toLowerCase().split(" ");
     let contador = 0;
@@ -11,4 +15,4 @@ function contarPalabraEnFrase(frase, palabra) {
     return `La palabra "${palabra}" aparece ${contador} veces.`;
 }
 
-console.log(contarPalabraEnFrase("Hola mundo hola mundo hola", "hola"));
+console.log(contarPalabraEnFrase("Hola mundo hola mundo hola", "Hola"));
