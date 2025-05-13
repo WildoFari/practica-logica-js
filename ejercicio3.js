@@ -3,7 +3,8 @@
 
 
 function contarPalabraEnFrase(frase, palabra) {
-    const palabras = frase.toLowerCase().split(" ");
+    const fraseLimpia = frase.toLowerCase().replace(/[.,!?:;"']/g, "");
+    const palabras = fraseLimpia.split(" ");
     let contador = 0;
 
     for (let i = 0; i < palabras.length; i++) {
