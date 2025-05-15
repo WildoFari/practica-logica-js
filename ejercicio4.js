@@ -4,13 +4,13 @@
 // solo estructuras de control.
 
 
-function invertirTexto(texto) {
+function invertirPalabra(texto) {
     let resultado = "";
-    for (let i = texto.length - 1; i >= 0; i--) {
-        resultado += texto[i];
-    }
 
-    return resultado;
+    for (let i = texto.length - 1; i >= 0; i--) {
+        resultado += texto[i]
+    }
+    return resultado
 }
 
-console.log(invertirTexto("hola"));
+console.log(invertirPalabra('hola'))
