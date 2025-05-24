@@ -1,0 +1,1 @@
+// Dado un array de enteros y un número, detectar si esa lista es una permutación del 1 al número aportado.
