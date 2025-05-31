@@ -14,4 +14,4 @@ function tipoDeAngulo(grados) {
     if (grados === 360) return "Ángulo completo";
   }
 
-console.log(tipoDeAngulo(180))
+// console.log(tipoDeAngulo(180))
