@@ -1,0 +1,1 @@
+// Dado un array de números, devolver la media de todos ellos.
